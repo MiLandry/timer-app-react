@@ -1,8 +1,7 @@
 import React from "react";
- import Timer from './Timer';
- import TimerForm from './TimerForm';
+// import TimerList from './TimerList';
 
-export default class TimerList extends React.Component {
+export default class Timer extends React.Component {
   constructor() {
     super();
     this.name = "Mike";
@@ -16,8 +15,9 @@ export default class TimerList extends React.Component {
   render() {
     return (
       <div>
-      <Timer />
-      <TimerForm />
+      <h2>Mow the lawn </h2>
+      <p> 0 </p>
+      <button> Start </button>
       </div>
     );
   }
