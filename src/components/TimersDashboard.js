@@ -1,3 +1,7 @@
+import React from 'react';
+import EditableTimerList from './EditableTimerList';
+import ToggleableTimerForm from './ToggleableTimerForm';
+
 const TimersDashboard = React.createClass({
   render: function () {
     return (
@@ -12,3 +16,5 @@ const TimersDashboard = React.createClass({
       );
   },
 });
+
+export default TimersDashboard;
